@@ -1,7 +1,7 @@
 "use strict";
 // JS Assessment: Find Your Hat //
-const prompt = require("prompt-sync")({ sigint: true }); 
-const clear = require("clear-screen"); 
+const prompt = require("prompt-sync")({ sigint: true });
+const clear = require("clear-screen");
 const hole = "O";
 const fieldCharacter = "░";
 const pathCharacter = "*";
@@ -9,10 +9,10 @@ const pathCharacter = "*";
 class Field {
 	constructor(field = [[]]) {
 		this.field = field;
-		this.positionX = 0;
-		this.positionY = 0;
+		this.positionRow = 0;
+		this.positionCol = 0;
 		// Set the home position at (0, 0) before the game starts
-		this.field[0][0] = pathCharacter;
+		this.field[this.positionCol][this.positionRow] = pathCharacter;
 	}
 
 	// Print field method to make it eaier
