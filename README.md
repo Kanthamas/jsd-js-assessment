@@ -118,7 +118,6 @@
 - holes
 - hat
 - actor
-  2 pts
 
 6. Thinking process & Breakdown the steps of a thinking process (5 pts ครบถ้วน | 3 pts มีไม่ครบ | 0 pts ไม่มีเลย)
 
