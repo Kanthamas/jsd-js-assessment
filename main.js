@@ -19,18 +19,15 @@ class Field {
 		this.field[this.positionRow][this.positionCol] = pathCharacter;
 	}
 
-	// Print field method to make it eaier
+	// Print field //
 	print() {
 		clear();
-		// Your print map code here
-		// YOUR CODE
+
+		// Replace with your own code //
 		console.log(this.field); // Please REMOVE this line before you start your code!
-		console.log(this.field[this.positionRow][this.positionCol]); // Please REMOVE this line before you start your code!
-		console.log(this.field[2][this.positionCol]); // Please REMOVE this line before you start your code!
 	}
 
-	// The rest of your code starts here
-	// YOUR CODE
+	// Your Code //
 }
 
 // Game Mode ON
